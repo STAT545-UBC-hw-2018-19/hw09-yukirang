@@ -20,7 +20,7 @@ File | Discription
 [repeat.Rmd](repeat.Rmd) | Plot a histogram
 [repeat.md](repeat.md) | .md output  
 [repeat.html](repeat.html) | .html output 
-[repeat.tsv](repeat.tsv) | Result file saved by repeat.R
+[repeat.tsv](repeat.tsv) | Result table saved by repeat.R
 [words.txt](words.txt) | Words input I've used. 
 [out.png](out.png) | Structure of my pipeline
 
