@@ -17,7 +17,7 @@ File | Discription
 -- | --
 [Makefile](Makefile) | make file
 [repeat.R](repeat.R) | Find the times of letters appearance 
-[repeat.rmd](repeat.rmd) | Plot a histogram
+[repeat.Rmd](repeat.Rmd) | Plot a histogram
 [repeat.md](repeat.md) | .md output  
 [repeat.html](repeat.html) | .html output 
 [repeat.tsv](repeat.tsv) | Result file saved by repeat.R
