@@ -1,3 +1,28 @@
+Hello welcome to my repo for hw09:)
+
+Structure of my pipeline:
+
+![](out.png)
+
+Changes I've made:
+* Write a new R script to find the times of letters appearance repeated in a word 
+* Write a new Rmd file to plot the result
+* Change the Makefile
+* Making a graph of my pipeline
+
+
+You might want to check
+File | Discription
+-- | --
+[Makefile](Makefile) | make file
+[repeat.R](repeat.R) | Find the times of letters appearance 
+[repeat.rmd](repeat.rmd) | Plot a histogram
+[repeat.md](repeat.md) | .md output  
+[repeat.html](repeat.html) | .html output 
+[repeat.tsv](repeat.tsv) | Result file saved by repeat.R
+[word.txt](word.txt) | Words input I've used. 
+[out.png](out.png) | Structure of my pipeline
+
 make-activity
 =============
 

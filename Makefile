@@ -1,9 +1,9 @@
 all: report.html
 
 clean:
-	rm -f words.txt histogram.tsv histogram.png report.md report.html
+	rm -f words.txt histogram.tsv histogram.png repeat.tsv repeat.png report.md report.html 
 
-report.html: report.rmd histogram.tsv histogram.png
+report.html: report.rmd histogram.tsv histogram.png repeat.tsv repeat.png
 	Rscript -e 'rmarkdown::render("$<")'
 
 histogram.png: histogram.tsv
@@ -11,6 +11,13 @@ histogram.png: histogram.tsv
 	rm Rplots.pdf
 
 histogram.tsv: histogram.r words.txt
+	Rscript $<
+	
+repeat.png: repeat.tsv
+	Rscript -e 'library(ggplot2); qplot(rep, freq, data=read.delim("$<")); ggsave("$@")'
+	rm Rplots.pdf
+
+repeat.tsv: repeat.r words.txt
 	Rscript $<
 
 words.txt: /usr/share/dict/words
