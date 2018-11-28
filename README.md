@@ -8,7 +8,7 @@ Changes I've made:
 * Write a new R script to find the times of letters appearance repeated in a word 
 * Write a new Rmd file to plot the result
 * Change the Makefile
-* Making a graph of my pipeline
+* Make a graph of my pipeline
 
 
 You might want to check
