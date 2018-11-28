@@ -21,7 +21,7 @@ File | Discription
 [repeat.md](repeat.md) | .md output  
 [repeat.html](repeat.html) | .html output 
 [repeat.tsv](repeat.tsv) | Result file saved by repeat.R
-[word.txt](word.txt) | Words input I've used. 
+[words.txt](words.txt) | Words input I've used. 
 [out.png](out.png) | Structure of my pipeline
 
 make-activity
